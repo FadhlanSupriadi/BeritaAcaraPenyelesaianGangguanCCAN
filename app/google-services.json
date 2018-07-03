@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "916117545743",
+    "firebase_url": "https://berita-acara-gangguan.firebaseio.com",
+    "project_id": "berita-acara-gangguan",
+    "storage_bucket": "berita-acara-gangguan.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:916117545743:android:3ab0a861e86734b6",
+        "android_client_info": {
+          "package_name": "com.telkom.ccan.beritaacarapenyelesaiangangguanccan"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "916117545743-2nk4l5eiso9gd5d5n4f28jup4irg31c3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.telkom.ccan.beritaacarapenyelesaiangangguanccan",
+            "certificate_hash": "20665ff37902f55a097c30fab401c576a5f69233"
+          }
+        },
+        {
+          "client_id": "916117545743-ishe02oubput7gnq8s67tk82fo7374hd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDYbkRvSKexlvJoKNdJd21I5H6I1lR4Wt8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "916117545743-ishe02oubput7gnq8s67tk82fo7374hd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
