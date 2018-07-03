@@ -21,15 +21,19 @@ public class BeritaAcaraCursorAdapter extends CursorAdapter {
     @Override
     public void bindView(View view, Context context, Cursor cursor) {
         TextView nomorgangguanTextView = (TextView) view.findViewById(R.id.);
+        TextView namaTextView = (TextView) view.findViewById(R.id.);
         TextView tanggalTextView = (TextView) view.findViewById(R.id.);
 
         int nomorgangguanColumnIndex = cursor.getColumnIndex(BeritaAcaraContract.BeritaAcaraEntry.COLUMN_NOMORGANGGUAN);
+        int namaColumnIndex = cursor.getColumnIndex(BeritaAcaraContract.BeritaAcaraEntry.COLUMN_NAMA);
         int tanggalColumnIndex = cursor.getColumnIndex(BeritaAcaraContract.BeritaAcaraEntry.COLUMN_TANGGAL);
 
         String nomorgangguan = cursor.getString(nomorgangguanColumnIndex);
+        String namagangguan = cursor.getString(namaColumnIndex);
         String tanggal = cursor.getString(tanggalColumnIndex);
 
         nomorgangguanTextView.setText(nomorgangguan);
+        namaTextView.setText(namagangguan);
         tanggalTextView.setText(tanggal);
     }
 }
